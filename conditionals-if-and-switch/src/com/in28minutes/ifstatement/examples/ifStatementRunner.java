@@ -31,4 +31,26 @@ public class ifStatementRunner {
 			System.out.println("who am i ?");
 		}
 	}
+	
+	private static void puzzle3() {
+		int m = 15;
+		
+		if (m > 15) {
+			if (m > 20) {
+				System.out.println("m > 20");
+			} else {
+				System.out.println("who am i ?");
+			}
+		}
+	}
+	
+	private static void puzzle4() {
+		int number = 5;
+		
+		if(number < 0) {
+			number = number + 10;
+		}
+		    number++;
+		    System.out.println(number);
+	}
 }
