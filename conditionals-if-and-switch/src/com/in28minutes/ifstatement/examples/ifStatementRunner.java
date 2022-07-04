@@ -3,7 +3,7 @@ package com.in28minutes.ifstatement.examples;
 public class ifStatementRunner {
 
 	public static void main(String[] args) {
-		puzzle2();
+		puzzle1();
 	}
 	
 	private static void puzzle1() {
