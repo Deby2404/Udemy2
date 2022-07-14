@@ -1,11 +1,9 @@
-package loops;
-
-import com.in28minutes.loops.MyNumber;
+package com.in28minutes.loops;
 
 public class MyNumberRunner {
 
 	public static void main(String[] args) {
-		MyNumber number = new MyNumber(2);
+		MyNumber number = new MyNumber(3);
 		boolean isPrime = number.isPrime();
 		System.out.println("isPrime " + isPrime);
 

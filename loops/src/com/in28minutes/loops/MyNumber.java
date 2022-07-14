@@ -9,7 +9,20 @@ public class MyNumber {
 	}
 	
 	public boolean isPrime() {
-		return false;
+		// 2 to number -1
+		// how can check if a number is divisable by 2
+		
+		if (number < 2) {
+			return false;
+		}
+		
+		for (int i = 2; i <= number -1; i++) {
+			if(number % i == 0)
+				 return false;
+		}
+		
+		
+		return true;
 	}
 
 }
