@@ -19,7 +19,6 @@ public class DoWhileRepeatedNumberRunner {
 		} while (number >= 0);
 		
 		System.out.print("Thank You! Have Fun!");
-
 	}
 
 }
